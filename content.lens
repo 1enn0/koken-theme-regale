@@ -66,7 +66,7 @@
 							<koken:parent>
 							<li>
 								<p>
-									Фото в альбоме <koken:link title="Смотреть {{ album.title }}">
+									go back to album <koken:link title="{{ album.title }}">
 									{{ album.title }}</koken:link>
 								</p>
 							</li>
@@ -89,7 +89,7 @@
 								<koken:categories>
 								<li>
 									<koken:loop separator=", ">
-										<koken:link title="Смотреть все с тегом {{ category.title }}">
+										<koken:link title="{{ category.title }}">
 											{{ category.title }}
 										</koken:link>
 									</koken:loop>
@@ -98,7 +98,7 @@
 								<koken:tags>
 								<li>
 									<koken:loop separator=", ">
-										<koken:link title="Смотреть все с тегом {{ tag.title }}">
+										<koken:link title="{{ tag.title }}">
 											{{ tag.title }}
 										</koken:link>
 									</koken:loop>
@@ -134,7 +134,7 @@
 							<koken:if true="settings.content_show_dl">
 								<koken:max_download>
 								<li>
-									<strong>Скачать изображение:</strong> <koken:link title="Download">
+									<strong>Download image:</strong> <koken:link title="Download">
 										{{ max_download.label }}&nbsp;({{ max_download.width }}x{{ max_download.height }})
 									</koken:link>
 								<li>
@@ -145,7 +145,7 @@
 
 								<koken:if true="content.public">
 
-						            <strong>Поделиться : </strong>
+						            <strong>Share : </strong>
 						            <ul class="social-links">
 						           	<li><koken:if empty="profile.twitter"><a href="https://twitter.com/intent/tweet?text={{ content.title|content.filename url_encode="true" }}&url={{ content.url url_encode="true" }}" class="share-twitter"><koken:else><a href="https://twitter.com/intent/tweet?text={{ content.title|content.filename url_encode="true" }}&url={{ content.url url_encode="true" }}&via={{ profile.twitter }}" class="share-twitter"></koken:if>Twitter</a></li>
 						            <li><a href="https://www.facebook.com/sharer.php?u={{ content.url url_encode="true" }}" class="share-facebook" title="Share {{ content.title|content.filename url_encode="true" }} on Facebook">Facebook</a></li>
