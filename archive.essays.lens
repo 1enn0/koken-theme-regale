@@ -39,5 +39,3 @@
  </koken:load>
 
 </div>
-
-<koken:include file="inc/footer.html" />

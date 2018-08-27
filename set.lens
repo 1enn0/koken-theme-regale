@@ -28,5 +28,3 @@
 	<koken:include file="inc/grid-albums.html" />
 
 </koken:load>
-
-<koken:include file="inc/footer.html" />

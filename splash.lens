@@ -37,5 +37,3 @@
 		$('#container').removeClass('pulseloading');
 	});
 </script>
-
-<koken:include file="inc/footer.html" />

@@ -36,5 +36,3 @@
 	</koken:note>
 
 </koken:load>
-
-<koken:include file="inc/footer.html" />

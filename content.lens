@@ -186,5 +186,3 @@
 	</div> <!-- close #content -->
 
 </koken:load>
-
-<koken:include file="inc/footer.html" />
