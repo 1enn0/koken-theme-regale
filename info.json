@@ -38,14 +38,14 @@
 				"header_bg_color": {
 					"label": "Header bg",
 					"type": "color",
-					"value": "rgba(255,255,255,0)",
+					"value": "rgba(33,33,33,0)",
 					"with_alpha": true,
 					"control_first": true
 				},
 				"footer_bg_color": {
 					"label": "Footer bg",
 					"type": "color",
-					"value": "rgba(255,255,255,0)",
+					"value": "rgba(33,33,33,0)",
 					"with_alpha": true,
 					"control_first": true
 				},
@@ -460,31 +460,31 @@
 				"body_color": {
 					"label": "Body text color",
 					"type": "color",
-					"value": "#000",
+					"value": "#76cab4",
 					"control_first": true
 				},
 				"link_color": {
 					"label": "Link text color",
 					"type": "color",
-					"value": "#000",
+					"value": "#76cab4",
 					"control_first": true
 				},
 				"link_color_hover": {
 					"label": "Link text color hover",
 					"type": "color",
-					"value": "#000",
+					"value": "#a5cbc1",
 					"control_first": true
 				},
 				"bgcolor_body": {
 					"label": "Body background",
 					"type": "color",
-					"value": "#fff",
+					"value": "#212121",
 					"control_first": true
 				},
 				"bgcolor_hf": {
 					"label": "Header footer background",
 					"type": "color",
-					"value": "#fff",
+					"value": "#212121",
 					"control_first": true
 				},
 				"albums_hover_bg_color": {
