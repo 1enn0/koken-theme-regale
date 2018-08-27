@@ -78,59 +78,59 @@
 					<div class="col r">
 
 						<ul>
-							<koken:if true="settings.content_show_caption">
-								<koken:not empty="content.caption">
-									<li>
-										{{ content.caption paragraphs="true" }}
-									</li>
-								</koken:not>
-							</koken:if>
-							<koken:if true="settings.content_show_meta">
-								<koken:categories>
-								<li>
-									<koken:loop separator=", ">
-										<koken:link title="{{ category.title }}">
-											{{ category.title }}
-										</koken:link>
-									</koken:loop>
-								</li>
-								</koken:categories>
-								<koken:tags>
-								<li>
-									<koken:loop separator=", ">
-										<koken:link title="{{ tag.title }}">
-											{{ tag.title }}
-										</koken:link>
-									</koken:loop>
-								</li>
-								</koken:tags>
-							</koken:if>
-							<koken:if true="settings.content_show_exif">
-								<koken:exif>
-								<li>
-									<koken:not empty="exif.model">
-										{{ exif.model }},
-									</koken:not>
-									<koken:not empty="exif.exposure">
-										{{ exif.exposure }},
-									</koken:not>
-									<koken:not empty="exif.aperture">
-										{{ exif.aperture }},
-									</koken:not>
-									<koken:not empty="exif.focal_length">
-										{{ exif.focal_length }},
-									</koken:not>
-									<koken:not empty="exif.iso_speed_ratings">
-										{{ exif.iso_speed_ratings }}
-									</koken:not>
-								</li>
-								</koken:exif>
-							</koken:if>
-							<koken:if true="settings.content_show_license">
-							<li>
-								{{ content.license.clean }}
-							</li>
-							</koken:if>
+							<!-- <koken:if true="settings.content_show_caption"> -->
+							<!-- 	<koken:not empty="content.caption"> -->
+							<!-- 		<li> -->
+							<!-- 			{{ content.caption paragraphs="true" }} -->
+							<!-- 		</li> -->
+							<!-- 	</koken:not> -->
+							<!-- </koken:if> -->
+							<!-- <koken:if true="settings.content_show_meta"> -->
+							<!-- 	<koken:categories> -->
+							<!-- 	<li> -->
+							<!-- 		<koken:loop separator=", "> -->
+							<!-- 			<koken:link title="{{ category.title }}"> -->
+							<!-- 				{{ category.title }} -->
+							<!-- 			</koken:link> -->
+							<!-- 		</koken:loop> -->
+							<!-- 	</li> -->
+							<!-- 	</koken:categories> -->
+							<!-- 	<koken:tags> -->
+							<!-- 	<li> -->
+							<!-- 		<koken:loop separator=", "> -->
+							<!-- 			<koken:link title="{{ tag.title }}"> -->
+							<!-- 				{{ tag.title }} -->
+							<!-- 			</koken:link> -->
+							<!-- 		</koken:loop> -->
+							<!-- 	</li> -->
+							<!-- 	</koken:tags> -->
+							<!-- </koken:if> -->
+							<!-- <koken:if true="settings.content_show_exif"> -->
+							<!-- 	<koken:exif> -->
+							<!-- 	<li> -->
+							<!-- 		<koken:not empty="exif.model"> -->
+							<!-- 			{{ exif.model }}, -->
+							<!-- 		</koken:not> -->
+							<!-- 		<koken:not empty="exif.exposure"> -->
+							<!-- 			{{ exif.exposure }}, -->
+							<!-- 		</koken:not> -->
+							<!-- 		<koken:not empty="exif.aperture"> -->
+							<!-- 			{{ exif.aperture }}, -->
+							<!-- 		</koken:not> -->
+							<!-- 		<koken:not empty="exif.focal_length"> -->
+							<!-- 			{{ exif.focal_length }}, -->
+							<!-- 		</koken:not> -->
+							<!-- 		<koken:not empty="exif.iso_speed_ratings"> -->
+							<!-- 			{{ exif.iso_speed_ratings }} -->
+							<!-- 		</koken:not> -->
+							<!-- 	</li> -->
+							<!-- 	</koken:exif> -->
+							<!-- </koken:if> -->
+							<!-- <koken:if true="settings.content_show_license"> -->
+							<!-- <li> -->
+							<!-- 	{{ content.license.clean }} -->
+							<!-- </li> -->
+							<!-- </koken:if> -->
 							<koken:if true="settings.content_show_dl">
 								<koken:max_download>
 								<li>
