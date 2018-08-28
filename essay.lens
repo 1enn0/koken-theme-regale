@@ -28,20 +28,6 @@
 
 		<koken:include file="inc/article.html" />
 
-		<koken:if true="settings.show_disc_essay">
-
-			<div id="kdiscuss">
-
-				<koken:discussion>
-
-					{{ discussion }}
-
-				</koken:discussion>
-
-			</div>
-
-		</koken:if>
-
 		<div id="content-pag">
 
 			<koken:next>

@@ -66,7 +66,7 @@
 							<koken:parent>
 							<li>
 								<p>
-									Фото в альбоме <koken:link title="Смотреть {{ album.title }}">
+									Photo in album <koken:link title="View {{ album.title }}">
 									{{ album.title }}</koken:link>
 								</p>
 							</li>
@@ -89,7 +89,7 @@
 								<koken:categories>
 								<li>
 									<koken:loop separator=", ">
-										<koken:link title="Смотреть все с тегом {{ category.title }}">
+										<koken:link title="View all with tag {{ category.title }}">
 											{{ category.title }}
 										</koken:link>
 									</koken:loop>
@@ -98,7 +98,7 @@
 								<koken:tags>
 								<li>
 									<koken:loop separator=", ">
-										<koken:link title="Смотреть все с тегом {{ tag.title }}">
+										<koken:link title="View all with tag {{ tag.title }}">
 											{{ tag.title }}
 										</koken:link>
 									</koken:loop>
@@ -134,45 +134,11 @@
 							<koken:if true="settings.content_show_dl">
 								<koken:max_download>
 								<li>
-									<strong>Скачать изображение:</strong> <koken:link title="Download">
+									<strong>Download image:</strong> <koken:link title="Download">
 										{{ max_download.label }}&nbsp;({{ max_download.width }}x{{ max_download.height }})
 									</koken:link>
 								<li>
 								</koken:max_download>
-							</koken:if>
-
-							<koken:if true="settings.social_bttns_show_one">
-
-								<koken:if true="content.public">
-
-						            <strong>Поделиться : </strong>
-						            <ul class="social-links">
-						           	<li><koken:if empty="profile.twitter"><a href="https://twitter.com/intent/tweet?text={{ content.title|content.filename url_encode="true" }}&url={{ content.url url_encode="true" }}" class="share-twitter"><koken:else><a href="https://twitter.com/intent/tweet?text={{ content.title|content.filename url_encode="true" }}&url={{ content.url url_encode="true" }}&via={{ profile.twitter }}" class="share-twitter"></koken:if>Twitter</a></li>
-						            <li><a href="https://www.facebook.com/sharer.php?u={{ content.url url_encode="true" }}" class="share-facebook" title="Share {{ content.title|content.filename url_encode="true" }} on Facebook">Facebook</a></li>
-						            <li><a href="http://pinterest.com/pin/create/button/?url={{ content.url url_encode="true" }}&media={{ content.presets.large.url url_encode="true" }}&description={{ content.title url_encode="true" }}" class="share-pinterest" title="Share {{ content.title|content.filename url_encode="true" }} on Pinterest">Pinterest</a></li>
-						            <li><a href="http://www.tumblr.com/share/photo?source={{ content.presets.large.url url_encode="true" }}&caption=%3Cp%3E%3Cstrong%3E%3Ca href=&quot;{{ content.url url_encode="true" }}&quot; title=&quot;{{ content.title|content.filename url_encode="true" }}&quot;%3E{{ content.title|content.filename url_encode="true" }}%3C/a%3E%3C/strong%3E%3C/p%3E%3Cp%3E{{ content.caption url_encode="true" }}%3C/p%3E&click_thru={{ content.url url_encode="true" }}" class="share-tumblr" title="Share {{ content.title|content.filename }} on Tumblr">Tumblr</a></li>
-						            <li><a href="https://plus.google.com/share?url={{ content.url url_encode="true" }}" class="share-google" title="Share {{ content.title|content.filename url_encode="true" }} on Google+">Google+</a></li>
-									<li><a href="http://vk.com/share.php?url={{ content.url url_encode="true" }}" class="share-google" title="Поделиться {{ content.title|content.filename url_encode="true" }} в Вконтакте">Вконтакте</a></li>
-						        	</ul>
-
-						            <koken:asset file="sharelite.js" common="true" />
-
-					       		</koken:if>
-
-				        	</koken:if>
-
-							<koken:if true="settings.show_disc_content">
-
-								<div id="kdiscuss">
-
-									<koken:discussion>
-
-										{{ discussion }}
-
-									</koken:discussion>
-
-								</div>
-
 							</koken:if>
 
 						</ul>
