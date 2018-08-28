@@ -12,28 +12,6 @@
 
 	"default_front_page": "contents",
 
-  "styles": {
-    "white": {
-      "label": "White",
-      "variables": {
-				"body_color": "#000000",
-				"link_color": "#000000",
-				"link_color_hover": "#000000",
-				"bgcolor_body": "#ffffff",
-				"bgcolor_hf": "#ffffff"
-      }
-    },
-    "gray": {
-      "label": "Gray",
-      "variables": {
-				"body_color": "#a1a1a1",
-				"link_color": "#a1a1a1",
-				"link_color_hover": "#a1a1a1",
-				"bgcolor_body": "#212121",
-				"bgcolor_hf": "#212121"
-      }
-    }
-  },
 
 	"navigation_groups": {
 		"footer": {
@@ -498,6 +476,32 @@
 		"Color": {
 			"icon": "color",
 			"settings": {
+        "color_scheme": {
+					"label": "Color Scheme",
+					"type": "select",
+					"options": [
+						{ "label": "White", 
+              "value": "white",
+              "variables": {
+                "body_color": "#000000",
+                "link_color": "#000000",
+                "link_color_hover": "#000000",
+                "bgcolor_body": "#ffffff",
+                "bgcolor_hf": "#ffffff"
+              }
+            },
+						{ "label": "Gray", 
+              "value": "gray",
+              "variables": {
+                "body_color": "#a1a1a1",
+                "link_color": "#a1a1a1",
+                "link_color_hover": "#a1a1a1",
+                "bgcolor_body": "#212121",
+                "bgcolor_hf": "#212121"
+              }
+            }
+          ]
+       },
 				"albums_hover_bg_color": {
 					"label": "Hover title background",
 					"type": "color",
