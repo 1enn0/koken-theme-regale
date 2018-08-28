@@ -461,7 +461,7 @@
 				"show_tagline": {
 					"label": "Show tagline",
 					"type": "boolean",
-					"value": true,
+					"value": false,
 					"control_first": true
 				},
 				"show_footer": {
@@ -490,7 +490,7 @@
 				"link_color_hover": {
 					"label": "Link text color hover",
 					"type": "color",
-					"value": "#a1a1a1",
+					"value": "#e1e1e1",
 					"control_first": true
 				},
 				"bgcolor_body": {
