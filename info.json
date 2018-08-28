@@ -211,7 +211,7 @@
 					"type": "slider",
 					"min": 1,
 					"max": 8,
-					"value": 4,
+					"value": 3,
 					"step": 1,
 					"scope": [ "album", "index", "contents", "favorites", "archive.contents" ]
 				},
@@ -220,7 +220,7 @@
 					"type": "slider",
 					"min": 0,
 					"max": 80,
-					"value": 20,
+					"value": 15,
 					"step": 5,
 					"suffix": "px",
 					"scope": [ "album", "index", "contents", "favorites", "archive.contents" ]
