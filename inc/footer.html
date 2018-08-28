@@ -3,9 +3,11 @@
 <koken:if true="settings.show_footer">
 	<footer class="main">
 
-		<nav>
-			<koken:navigation group="footer" />
-		</nav>
+		<koken:if true="settings.show_menu">
+      <nav>
+        <koken:navigation group="footer" />
+      </nav>
+		</koken:if>
 
 		<koken:if true="settings.show_tagline">
 			<span class="tagline">

@@ -446,6 +446,12 @@
 		"Footer": {
 			"icon": "layout",
 			"settings": {
+				"show_navigation": {
+					"label": "Show navigation",
+					"type": "boolean",
+					"value": false,
+					"control_first": true
+				},
 				"show_copyright": {
 					"label": "Show copyright",
 					"type": "boolean",
