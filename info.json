@@ -12,6 +12,29 @@
 
 	"default_front_page": "contents",
 
+  "styles": {
+    "white": {
+      "label": "White",
+      "variables": {
+				"body_color": "#000000",
+				"link_color": "#000000",
+				"link_color_hover": "#000000",
+				"bgcolor_body": "#ffffff",
+				"bgcolor_hf": "#ffffff"
+      }
+    },
+    "gray": {
+      "label": "Gray",
+      "variables": {
+				"body_color": "#a1a1a1",
+				"link_color": "#a1a1a1",
+				"link_color_hover": "#a1a1a1",
+				"bgcolor_body": "#212121",
+				"bgcolor_hf": "#212121"
+      }
+    }
+  },
+
 	"navigation_groups": {
 		"footer": {
 			"label": "Footer",
@@ -475,40 +498,10 @@
 		"Color": {
 			"icon": "color",
 			"settings": {
-				"body_color": {
-					"label": "Body text color",
-					"type": "color",
-					"value": "#000",
-					"control_first": true
-				},
-				"link_color": {
-					"label": "Link text color",
-					"type": "color",
-					"value": "#000",
-					"control_first": true
-				},
-				"link_color_hover": {
-					"label": "Link text color hover",
-					"type": "color",
-					"value": "#000",
-					"control_first": true
-				},
-				"bgcolor_body": {
-					"label": "Body background",
-					"type": "color",
-					"value": "#fff",
-					"control_first": true
-				},
-				"bgcolor_hf": {
-					"label": "Header footer background",
-					"type": "color",
-					"value": "#fff",
-					"control_first": true
-				},
 				"albums_hover_bg_color": {
 					"label": "Hover title background",
 					"type": "color",
-					"value": "rgba(255,255,255,1)",
+					"value": "rgba(255,255,255,0.9)",
 					"with_alpha": true,
 					"control_first": true,
 					"scope": [ "album", "albums", "set", "sets", "index", "contents", "favorites", "archive.contents" ],
