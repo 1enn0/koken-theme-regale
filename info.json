@@ -508,7 +508,7 @@
 				"albums_hover_bg_color": {
 					"label": "Hover title background",
 					"type": "color",
-					"value": "rgba(255,255,255,0.9)",
+					"value": "rgba(255,255,255,0.6)",
 					"with_alpha": true,
 					"control_first": true,
 					"scope": [ "album", "albums", "set", "sets", "index", "contents", "favorites", "archive.contents" ],
