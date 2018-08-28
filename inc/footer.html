@@ -3,11 +3,9 @@
 <koken:if true="settings.show_footer">
 	<footer class="main">
 
-		<koken:if true="settings.show_copyright">
-			<span class="copyright">
-				{{ site.copyright }}
-			</span>
-		</koken:if>
+		<nav>
+			<koken:navigation group="footer" />
+		</nav>
 
 		<koken:if true="settings.show_tagline">
 			<span class="tagline">
@@ -15,9 +13,12 @@
 			</span>
 		</koken:if>
 
-		<nav>
-			<koken:navigation group="footer" />
-		</nav>
+		<koken:if true="settings.show_copyright">
+			<span class="copyright">
+				{{ site.copyright }}
+			</span>
+		</koken:if>
+
 
 		<!-- <koken:if true="settings.show_social"> -->
 		<!-- 	<div class="social"> -->
@@ -42,13 +43,13 @@
 	</footer>
 </koken:if> <!-- if settings.show_footer -->
 
-	<script>
-	$(document).ready(function() {
-		$('#mob-menu').sidr({
-			name: 'sidr-left'
-		});
-	});
-	</script>
+	<!-- <script> -->
+	<!-- $(document).ready(function() { -->
+	<!-- 	$('#mob-menu').sidr({ -->
+	<!-- 		name: 'sidr-left' -->
+	<!-- 	}); -->
+	<!-- }); -->
+	<!-- </script> -->
 
 </body>
 
