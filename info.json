@@ -478,37 +478,37 @@
 				"body_color": {
 					"label": "Body text color",
 					"type": "color",
-					"value": "#000",
+					"value": "#a1a1a1",
 					"control_first": true
 				},
 				"link_color": {
 					"label": "Link text color",
 					"type": "color",
-					"value": "#000",
+					"value": "#a1a1a1",
 					"control_first": true
 				},
 				"link_color_hover": {
 					"label": "Link text color hover",
 					"type": "color",
-					"value": "#000",
+					"value": "#a1a1a1",
 					"control_first": true
 				},
 				"bgcolor_body": {
 					"label": "Body background",
 					"type": "color",
-					"value": "#fff",
+					"value": "#212121",
 					"control_first": true
 				},
 				"bgcolor_hf": {
 					"label": "Header footer background",
 					"type": "color",
-					"value": "#fff",
+					"value": "#212121",
 					"control_first": true
 				},
 				"albums_hover_bg_color": {
 					"label": "Hover title background",
 					"type": "color",
-					"value": "rgba(255,255,255,1)",
+					"value": "rgba(255,255,255,0.9)",
 					"with_alpha": true,
 					"control_first": true,
 					"scope": [ "album", "albums", "set", "sets", "index", "contents", "favorites", "archive.contents" ],
