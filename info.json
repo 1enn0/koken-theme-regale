@@ -10,14 +10,21 @@
 	},
 	"koken_version_required": "0.15.0",
 
-	"default_front_page": "contents",
+	"default_front_page": "albums",
 
 	"navigation_groups": {
 		"footer": {
 			"label": "Footer",
 			"description": "Links in the footer",
 			"defaults": [
-				"front", "albums", "essays", "twitter", "facebook", "gplus"
+				"front", "albums"
+			]
+		},
+		"header": {
+			"label": "Header",
+			"description": "Links in the header",
+			"defaults": [
+				"front", "albums"
 			]
 		}
 	},
@@ -413,7 +420,7 @@
 				"social_bttns_show_one": {
 					"label": "Show share links",
 					"type": "boolean",
-					"value": true,
+					"value": false,
 					"control_first": true
 				},
 				"show_social": {
@@ -556,7 +563,7 @@
 					"note": "Requires the Disqus plugin",
 					"note_align": "left",
 					"type": "boolean",
-					"value": true,
+					"value": false,
 					"control_first": true,
 					"scope": [ "essay" ]
 				},
@@ -565,7 +572,7 @@
 					"note": "Requires the Disqus plugin",
 					"note_align": "left",
 					"type": "boolean",
-					"value": true,
+					"value": false,
 					"control_first": true,
 					"scope": [ "content" ]
 				}
