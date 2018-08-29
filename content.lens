@@ -21,11 +21,8 @@
 	</koken:head>
 
 	<div id="content">
-
 			<div class="pad">
-
 				<div class="media">
-
 					<div id="content-pagination">
 
 						<koken:previous>
@@ -49,9 +46,7 @@
 				</div> <!-- close .media -->
 
 				<div id="content-caption">
-
 					<div class="col l">
-
 						<ul>
 							<li>
 								<koken:if true="settings.content_show_title">
@@ -72,11 +67,9 @@
 							</li>
 							</koken:parent>
 						</ul>
-
 					</div> <!-- close .col -->
 
 					<div class="col r">
-
 						<ul>
 							<koken:if true="settings.content_show_caption">
 								<koken:not empty="content.caption">
@@ -142,13 +135,9 @@
 							</koken:if>
 
 						</ul>
-
 					</div> <!-- close .col -->
-
 				</div> <!-- close #content-caption -->
-
 			</div> <!-- close .pad -->
-
 	</div> <!-- close #content -->
 
 </koken:load>

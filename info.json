@@ -19,13 +19,6 @@
 			"defaults": [
 				"front", "albums"
 			]
-		},
-		"header": {
-			"label": "Header",
-			"description": "Links in the header",
-			"defaults": [
-				"front", "albums"
-			]
 		}
 	},
 
@@ -414,42 +407,6 @@
 				}
 			}
 		},
-		"Social": {
-			"icon":"social",
-			"settings": {
-				"social_bttns_show_one": {
-					"label": "Show share links",
-					"type": "boolean",
-					"value": false,
-					"control_first": true
-				},
-				"show_social": {
-					"label": "Show social media buttons",
-					"type": "boolean",
-					"value": false,
-					"control_first": true
-				},
-				"fb_href": {
-					"label": "Like link",
-					"type": "select",
-					"options": [
-						{ "label": "Page", "value": "page" },
-						{ "label": "Site", "value": "site" },
-						{ "label": "Facebook page", "value": "fbpage" }
-					],
-					"value": "page",
-					"dependencies": {
-						"evaluate": "all",
-						"conditions": [
-							{
-								"option": "show_social",
-								"equals": true
-							}
-						]
-					}
-				}
-			}
-		},
 		"Footer": {
 			"icon": "layout",
 			"settings": {
@@ -552,29 +509,6 @@
 	                         }
 	                    ]
 	               	}
-				}
-			}
-		},
-		"Discussions": {
-			"icon":"discuss",
-			"settings": {
-				"show_disc_essay": {
-					"label": "Show essay discussions",
-					"note": "Requires the Disqus plugin",
-					"note_align": "left",
-					"type": "boolean",
-					"value": false,
-					"control_first": true,
-					"scope": [ "essay" ]
-				},
-				"show_disc_content": {
-					"label": "Show content discussions",
-					"note": "Requires the Disqus plugin",
-					"note_align": "left",
-					"type": "boolean",
-					"value": false,
-					"control_first": true,
-					"scope": [ "content" ]
 				}
 			}
 		}

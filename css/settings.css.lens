@@ -151,6 +151,11 @@ footer.main ul li {
 }
 
 footer.main span.copyright {
+	float:left;
+	display:block;
+}
+
+footer.main span.tagline {
 	float:right;
 	display:block;
 }
