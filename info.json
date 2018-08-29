@@ -1,12 +1,12 @@
 {
-	"name": "RegaleX",
+	"name": "Elager",
 	"version": "1.0",
-	"description": "Regale is a bold, assured theme that fluidly scales content across the entire browser window for larger than life photos. Includes a basic header and footer navigation, social media links, plus a configurable grid layout that allows you to control spacing and column count. Single photos presented on the content page are scaled as large as they can go for maximum impact. Theme preview photos by Daniele Zedda.",
-	"demo": "http://demo.koken.me/#regale",
-	"documentation": "http://help.koken.me/customer/portal/articles/1227391-regale-documentation",
+	"description": "Based on Koken Regale theme.",
+	"demo": "",
+	"documentation": "",
 	"author": {
-		"name": "Koken",
-		"link": "https://store.koken.me/authors/koken"
+		"name": "Koken, Lennart Hannink",
+		"link": ""
 	},
 	"koken_version_required": "0.15.0",
 

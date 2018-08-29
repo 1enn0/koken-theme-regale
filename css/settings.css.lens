@@ -155,12 +155,6 @@ footer.main span.copyright {
 	display:block;
 }
 
-footer.main span.tagline {
-	float:right;
-	display:block;
-  /* padding-right:15px; */
-}
-
 div#container {
 	position:relative;
 	padding-top:[$grid_col_offset]px;
