@@ -16,9 +16,7 @@
 		"footer": {
 			"label": "Footer",
 			"description": "Links in the footer",
-			"defaults": [
-				"front", "albums"
-			]
+			"defaults": [  ]
 		}
 	},
 
@@ -232,7 +230,7 @@
 					"type": "slider",
 					"min": 0,
 					"max": 80,
-					"value": 40,
+					"value": 20,
 					"step": 5,
 					"suffix": "px",
 					"scope": [ "albums", "sets", "set" ]
