@@ -3,15 +3,9 @@
 <koken:if true="settings.show_footer">
 	<footer class="main">
 
-    <koken:not empty="profile.twitter">
-      <span class="copyright">
-        <koken:link title="Twitter">@{{ profile.twitter }} </koken:link>
-      </span>
-    </koken:not>
-
 		<koken:if true="settings.show_copyright">
 			<span class="copyright">
-				{{ site.copyright }}
+        <koken:link title="https://twitter.com/{{ twitter.profile }}">{{ site.copyright }} </koken:link>
 			</span>
 		</koken:if>
 
