@@ -5,15 +5,15 @@
 
 		<koken:if true="settings.show_copyright">
 			<span class="copyright">
-        <a href="https://twitter.com/{{profile.twitter}}">{{ site.copyright }}</a>
+        <a href="https://twitter.com/{{profile.twitter}}" title="{{ site.copyright }}">{{ site.tagline }}</a>
 			</span>
 		</koken:if>
 
-		<koken:if true="settings.show_tagline">
-			<span class="tagline">
-				{{ site.tagline }}
-			</span>
-		</koken:if>
+		<!-- <koken:if true="settings.show_tagline"> -->
+		<!-- 	<span class="tagline"> -->
+		<!-- 		{{ site.tagline }} -->
+		<!-- 	</span> -->
+		<!-- </koken:if> -->
 
 	</footer>
 </koken:if>

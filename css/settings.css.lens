@@ -158,7 +158,7 @@ footer.main span.copyright {
 footer.main span.tagline {
 	float:right;
 	display:block;
-  padding-right:15px;
+  /* padding-right:15px; */
 }
 
 div#container {
