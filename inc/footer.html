@@ -3,21 +3,19 @@
 <koken:if true="settings.show_footer">
 	<footer class="main">
 
-		<koken:if true="settings.show_menu">
-      <nav>
-        <koken:navigation group="footer" />
-      </nav>
+    <koken:not empty="profile.twitter">
+    <koken:link title="Twitter">@{{ profile.twitter }} </koken:link>
+    </koken:not>
+
+		<koken:if true="settings.show_copyright">
+			<span class="copyright">
+				{{ site.copyright }}
+			</span>
 		</koken:if>
 
 		<koken:if true="settings.show_tagline">
 			<span class="tagline">
 				{{ site.tagline }}
-			</span>
-		</koken:if>
-
-		<koken:if true="settings.show_copyright">
-			<span class="copyright">
-				{{ site.copyright }}
 			</span>
 		</koken:if>
 

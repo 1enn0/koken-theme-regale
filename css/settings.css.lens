@@ -151,13 +151,14 @@ footer.main ul li {
 }
 
 footer.main span.copyright {
-	float:left;
+	float:right;
 	display:block;
 }
 
 footer.main span.tagline {
 	float:right;
 	display:block;
+  padding-right:20px;
 }
 
 div#container {

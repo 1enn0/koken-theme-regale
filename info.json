@@ -12,14 +12,6 @@
 
 	"default_front_page": "albums",
 
-	"navigation_groups": {
-		"footer": {
-			"label": "Footer",
-			"description": "Links in the footer",
-			"defaults": [  ]
-		}
-	},
-
 	"templates": {
 		"splash": {
 			"name": "Full screen splash page",
