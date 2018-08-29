@@ -415,7 +415,7 @@
 				"show_tagline": {
 					"label": "Show tagline",
 					"type": "boolean",
-					"value": false,
+					"value": true,
 					"control_first": true
 				},
 				"show_footer": {
