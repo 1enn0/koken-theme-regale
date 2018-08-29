@@ -25,13 +25,12 @@
 		</koken:not>
 	</koken:head>
 
-  <koken:album_download>
-    <p>
-    <koken:link>Download {{ album_download.title  }}</koken:link>
-    </p>
-  </koken:album_download>
 
 	<koken:include file="inc/grid-album.html" />
+
+  <koken:album_download>
+    Download album <koken:link>{{ album_download.title  }}</koken:link>
+  </koken:album_download>
 
 <koken:else>
 
